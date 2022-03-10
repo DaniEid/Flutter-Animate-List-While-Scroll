@@ -1,16 +1,20 @@
-# animated_list
+# Flutter List animate while scroll
+## Scrolling animation
 
-A new Flutter project.
+Simple animated list while scrolling using animated padding and GetX
 
-## Getting Started
+![Demo](https://s7.gifyu.com/images/ezgif.com-gif-maker00d94ae296eb42be.gif)
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Build a list using listView.builder
+- Use GetX to control the state of the widget using Obx and Rx
+- Use Scroll notification to trigger the animation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note:
+> if you don't want to use GetX you will find in the commits the stateful widget use
+
+
+## Installation
+Just clone the project, run flutter pub get then hit the run button to get started
